@@ -55,7 +55,7 @@ button:hover {
     transition: transform 0.2s ease;
     background-color: #f8bbd0; 
     height: 100%; 
-    width: 25vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
 }
