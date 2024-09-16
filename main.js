@@ -14,6 +14,8 @@ function renderCard(data) {
     img.classList.add('card-img-top');
     img.src = data.imgUrl;
     img.alt = data.name;
+    img.style.width ="100%"
+    img.style.height = "50vh"
 
     let cardBody = document.createElement('div');
     cardBody.classList.add('card-body');
